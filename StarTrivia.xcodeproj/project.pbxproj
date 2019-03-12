@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000F52992237AD8400A79EFF /* FadeEnableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F52982237AD8300A79EFF /* FadeEnableButton.swift */; };
+		000F529C2237B53500A79EFF /* HomeworldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F529B2237B53500A79EFF /* HomeworldVC.swift */; };
+		000F529E2237B5C700A79EFF /* VehiclesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F529D2237B5C700A79EFF /* VehiclesVC.swift */; };
+		000F52A02237B5F700A79EFF /* StarshipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F529F2237B5F700A79EFF /* StarshipsVC.swift */; };
+		000F52A22237B61700A79EFF /* FilmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F52A12237B61700A79EFF /* FilmVC.swift */; };
+		000F52A42237F14000A79EFF /* Homeworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000F52A32237F14000A79EFF /* Homeworld.swift */; };
 		00FAB96622353A3C00A9AA14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB96522353A3C00A9AA14 /* AppDelegate.swift */; };
-		00FAB96822353A3C00A9AA14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB96722353A3C00A9AA14 /* ViewController.swift */; };
+		00FAB96822353A3C00A9AA14 /* SelectPersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB96722353A3C00A9AA14 /* SelectPersonVC.swift */; };
 		00FAB96B22353A3C00A9AA14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB96922353A3C00A9AA14 /* Main.storyboard */; };
 		00FAB96D22353A3D00A9AA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB96C22353A3D00A9AA14 /* Assets.xcassets */; };
 		00FAB97022353A3D00A9AA14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB96E22353A3D00A9AA14 /* LaunchScreen.storyboard */; };
 		00FAB97B22353A3D00A9AA14 /* StarTriviaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB97A22353A3D00A9AA14 /* StarTriviaTests.swift */; };
 		00FAB98622353A3D00A9AA14 /* StarTriviaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB98522353A3D00A9AA14 /* StarTriviaUITests.swift */; };
+		00FAB99522353C7C00A9AA14 /* Starjedi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB99322353C7C00A9AA14 /* Starjedi.ttf */; };
+		00FAB99622353C7C00A9AA14 /* Starjhol.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB99422353C7C00A9AA14 /* Starjhol.ttf */; };
+		00FAB99822353C8E00A9AA14 /* Starjout.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00FAB99722353C8E00A9AA14 /* Starjout.ttf */; };
+		00FAB99D223555A100A9AA14 /* BlackBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB99C223555A100A9AA14 /* BlackBgView.swift */; };
+		00FAB9A22235569E00A9AA14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB9A12235569E00A9AA14 /* Constants.swift */; };
+		00FAB9A42236457900A9AA14 /* PersonApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB9A32236457900A9AA14 /* PersonApi.swift */; };
+		00FAB9A6223649D400A9AA14 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAB9A5223649D400A9AA14 /* Person.swift */; };
+		58E30CA2C565BDCDE817C8AD /* Pods_StarTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE56EF7527B976DB50DC489B /* Pods_StarTrivia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +48,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		000F52982237AD8300A79EFF /* FadeEnableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeEnableButton.swift; sourceTree = "<group>"; };
+		000F529B2237B53500A79EFF /* HomeworldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworldVC.swift; sourceTree = "<group>"; };
+		000F529D2237B5C700A79EFF /* VehiclesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesVC.swift; sourceTree = "<group>"; };
+		000F529F2237B5F700A79EFF /* StarshipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipsVC.swift; sourceTree = "<group>"; };
+		000F52A12237B61700A79EFF /* FilmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmVC.swift; sourceTree = "<group>"; };
+		000F52A32237F14000A79EFF /* Homeworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworld.swift; sourceTree = "<group>"; };
 		00FAB96222353A3C00A9AA14 /* StarTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FAB96522353A3C00A9AA14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00FAB96722353A3C00A9AA14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00FAB96722353A3C00A9AA14 /* SelectPersonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonVC.swift; sourceTree = "<group>"; };
 		00FAB96A22353A3C00A9AA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00FAB96C22353A3D00A9AA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00FAB96F22353A3D00A9AA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +67,18 @@
 		00FAB98122353A3D00A9AA14 /* StarTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FAB98522353A3D00A9AA14 /* StarTriviaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarTriviaUITests.swift; sourceTree = "<group>"; };
 		00FAB98722353A3D00A9AA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00FAB99322353C7C00A9AA14 /* Starjedi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjedi.ttf; sourceTree = "<group>"; };
+		00FAB99422353C7C00A9AA14 /* Starjhol.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjhol.ttf; sourceTree = "<group>"; };
+		00FAB99722353C8E00A9AA14 /* Starjout.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Starjout.ttf; sourceTree = "<group>"; };
+		00FAB99C223555A100A9AA14 /* BlackBgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackBgView.swift; sourceTree = "<group>"; };
+		00FAB9A12235569E00A9AA14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00FAB9A32236457900A9AA14 /* PersonApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonApi.swift; sourceTree = "<group>"; };
+		00FAB9A5223649D400A9AA14 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		5589BCF26C8ED909DD33E8C8 /* Pods-StarTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.debug.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		AD24AEBD3D6AC200BDE06F88 /* Pods_StarTriviaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTriviaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1DD72897773B96DFD4EBB8 /* Pods-StarTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarTrivia.release.xcconfig"; path = "Target Support Files/Pods-StarTrivia/Pods-StarTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		DE56EF7527B976DB50DC489B /* Pods_StarTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41D5D604F359012DB91672E /* Pods_StarTriviaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarTriviaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58E30CA2C565BDCDE817C8AD /* Pods_StarTrivia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +107,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000F529A2237B50500A79EFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB96722353A3C00A9AA14 /* SelectPersonVC.swift */,
+				000F529B2237B53500A79EFF /* HomeworldVC.swift */,
+				000F529D2237B5C700A79EFF /* VehiclesVC.swift */,
+				000F529F2237B5F700A79EFF /* StarshipsVC.swift */,
+				000F52A12237B61700A79EFF /* FilmVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		00FAB95922353A3C00A9AA14 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				00FAB97922353A3D00A9AA14 /* StarTriviaTests */,
 				00FAB98422353A3D00A9AA14 /* StarTriviaUITests */,
 				00FAB96322353A3C00A9AA14 /* Products */,
+				D97A0A646437AADDFC442C6D /* Pods */,
+				565918EBA5D21D4C513F3537 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +144,13 @@
 		00FAB96422353A3C00A9AA14 /* StarTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				000F529A2237B50500A79EFF /* Controller */,
+				00FAB99B2235400E00A9AA14 /* View */,
+				00FAB99A2235400600A9AA14 /* Model */,
+				00FAB9A02235567800A9AA14 /* Utilis */,
+				00FAB99F2235565300A9AA14 /* Resources */,
 				00FAB96522353A3C00A9AA14 /* AppDelegate.swift */,
-				00FAB96722353A3C00A9AA14 /* ViewController.swift */,
+				00FAB9A32236457900A9AA14 /* PersonApi.swift */,
 				00FAB96922353A3C00A9AA14 /* Main.storyboard */,
 				00FAB96C22353A3D00A9AA14 /* Assets.xcassets */,
 				00FAB96E22353A3D00A9AA14 /* LaunchScreen.storyboard */,
@@ -125,6 +177,69 @@
 			path = StarTriviaUITests;
 			sourceTree = "<group>";
 		};
+		00FAB99922353CA900A9AA14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB99322353C7C00A9AA14 /* Starjedi.ttf */,
+				00FAB99722353C8E00A9AA14 /* Starjout.ttf */,
+				00FAB99422353C7C00A9AA14 /* Starjhol.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		00FAB99A2235400600A9AA14 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB9A5223649D400A9AA14 /* Person.swift */,
+				000F52A32237F14000A79EFF /* Homeworld.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		00FAB99B2235400E00A9AA14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB99C223555A100A9AA14 /* BlackBgView.swift */,
+				000F52982237AD8300A79EFF /* FadeEnableButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		00FAB99F2235565300A9AA14 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB99922353CA900A9AA14 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		00FAB9A02235567800A9AA14 /* Utilis */ = {
+			isa = PBXGroup;
+			children = (
+				00FAB9A12235569E00A9AA14 /* Constants.swift */,
+			);
+			path = Utilis;
+			sourceTree = "<group>";
+		};
+		565918EBA5D21D4C513F3537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE56EF7527B976DB50DC489B /* Pods_StarTrivia.framework */,
+				AD24AEBD3D6AC200BDE06F88 /* Pods_StarTriviaTests.framework */,
+				E41D5D604F359012DB91672E /* Pods_StarTriviaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D97A0A646437AADDFC442C6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5589BCF26C8ED909DD33E8C8 /* Pods-StarTrivia.debug.xcconfig */,
+				DB1DD72897773B96DFD4EBB8 /* Pods-StarTrivia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00FAB98A22353A3D00A9AA14 /* Build configuration list for PBXNativeTarget "StarTrivia" */;
 			buildPhases = (
+				15CE7DA998F624510CD0C21B /* [CP] Check Pods Manifest.lock */,
 				00FAB95E22353A3C00A9AA14 /* Sources */,
 				00FAB95F22353A3C00A9AA14 /* Frameworks */,
 				00FAB96022353A3C00A9AA14 /* Resources */,
+				EAA66A0E645DDFC87B7023AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +348,9 @@
 			files = (
 				00FAB97022353A3D00A9AA14 /* LaunchScreen.storyboard in Resources */,
 				00FAB96D22353A3D00A9AA14 /* Assets.xcassets in Resources */,
+				00FAB99522353C7C00A9AA14 /* Starjedi.ttf in Resources */,
+				00FAB99622353C7C00A9AA14 /* Starjhol.ttf in Resources */,
+				00FAB99822353C8E00A9AA14 /* Starjout.ttf in Resources */,
 				00FAB96B22353A3C00A9AA14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +371,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15CE7DA998F624510CD0C21B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA66A0E645DDFC87B7023AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StarTrivia/Pods-StarTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00FAB95E22353A3C00A9AA14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FAB96822353A3C00A9AA14 /* ViewController.swift in Sources */,
+				00FAB9A6223649D400A9AA14 /* Person.swift in Sources */,
+				00FAB96822353A3C00A9AA14 /* SelectPersonVC.swift in Sources */,
+				000F52A22237B61700A79EFF /* FilmVC.swift in Sources */,
+				000F52A42237F14000A79EFF /* Homeworld.swift in Sources */,
+				000F52A02237B5F700A79EFF /* StarshipsVC.swift in Sources */,
+				000F529E2237B5C700A79EFF /* VehiclesVC.swift in Sources */,
 				00FAB96622353A3C00A9AA14 /* AppDelegate.swift in Sources */,
+				00FAB99D223555A100A9AA14 /* BlackBgView.swift in Sources */,
+				000F52992237AD8400A79EFF /* FadeEnableButton.swift in Sources */,
+				00FAB9A42236457900A9AA14 /* PersonApi.swift in Sources */,
+				000F529C2237B53500A79EFF /* HomeworldVC.swift in Sources */,
+				00FAB9A22235569E00A9AA14 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +609,7 @@
 		};
 		00FAB98B22353A3D00A9AA14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5589BCF26C8ED909DD33E8C8 /* Pods-StarTrivia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +627,7 @@
 		};
 		00FAB98C22353A3D00A9AA14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB1DD72897773B96DFD4EBB8 /* Pods-StarTrivia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
